@@ -1,0 +1,1 @@
+Hi there. This is the solution to the word count problem. How many words do you think I should add to make the test case suitable for the solution?
