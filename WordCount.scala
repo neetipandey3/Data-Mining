@@ -1,7 +1,7 @@
 /**
   * Word Count
   *
-  * Usage: spark-submit --class WordCount
+  * Arguments: <Input File> <Output File>
   */
 
 import org.apache.spark.{SparkConf, SparkContext}
