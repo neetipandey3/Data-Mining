@@ -15,10 +15,10 @@ import scala.collection.mutable.HashMap
   *
   * Usage:
   *
-  * Step1: Download jar file
+  * Step1: Download jar file. Download ratings.csv from MovieLens ml-latest-small dataset
   *
   * Step2: Execute:-
-  *                 spark-submit --class Neeti_Pandey_Betweenness Neeti_Pandey_hw4.jar <-ratings.csv path>
+  *                 spark-submit --class betweenness.jar <-ratings.csv path>
   *
   * Used MovieLens Dataset:
   *                 ml-latest-small
@@ -49,7 +49,7 @@ object Betweenness {
     val sc = new SparkContext(conf)
 
     val ratings_path = args(0)
-    //val op_filename = "Neeti_Pandey_Betweenness.txt"
+    
 
     val data_hdr = sc.textFile(ratings_path+"/ratings.csv")
     val header = data_hdr.first()
