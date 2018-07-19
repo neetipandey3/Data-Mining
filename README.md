@@ -6,15 +6,14 @@ pyspark 2.3.0
 python 2.7.14
 
 
-###Dataset: 
+### Dataset: 
 MovieLens
 ml-latest-small
 ml-20m
 
 
 This repository comprises of source codes of implementations of several Data Mining algorithms, in Python, 
-and in Scala, leveraging parallel computing feature of PySpark library. Spark library helped to accomplish in-main memory, parallel and 
-faster data processing in some of these algorithms:
+and in Scala, leveraging parallel computing feature of PySpark library. Spark library helped to accomplish in-main memory, parallel and faster data processing in some of these algorithms:
  
 ### - Finding Frequent Itemsets (Basket analysis)
 1. A-priori
